@@ -20,24 +20,24 @@ const displayPets = (pets) => {
             <div class="h-1/2">
                 <p class = "font-extrabold text-2xl text-[#131313] mb-2">${!(pet.pet_name)? "Not Available" : pet.pet_name}</p>
                 <div class = "flex xl:gap-3 gap-1 items-center mb-2">
-                    <div><img src = "../images/bread_logo.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                    <div><img src = "images/bread_logo.png" alt = "" class = "w-[24px] h-[24px]"></div>
                     <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" > Breed: ${!(pet.breed)? "Not Available" : pet.breed}</p>
                 </div>
                 <div class = "flex xl:gap-3 gap-1 items-center mb-2" >
-                    <div><img src = "../images/bd_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                    <div><img src = "images/bd_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                     <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" > Birth: ${!(pet.date_of_birth)?"Not available":pet.date_of_birth}</p>
                 </div>
                 <div class = "flex xl:gap-3 gap-1 items-center mb-2" >
-                    <div><img src = "../images/gender_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                    <div><img src = "images/gender_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                     <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" > Gender: ${!(pet.gender)?"Not Available":pet.gender}</p>
                 </div>
                 <div class = "flex xl:gap-3 gap-1 items-center mb-2" >
-                    <div><img src = "../images/price_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                    <div><img src = "images/price_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                     <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" >Price: ${!(pet.price)?"Not Available":pet.price}</p>
                 </div><hr class="mb-4">
                 <div class="flex justify-between items-center">
                     <div>
-                        <button class="xl:py-2 lg:py-1 py-1 xl:px-3 px-2 lg:px-1 md:px-2 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px]" onclick = "like('${pet.image}')"><img src="../images/like.png" alt="" class="w-[24px] h-[24px]"></button>
+                        <button class="xl:py-2 lg:py-1 py-1 xl:px-3 px-2 lg:px-1 md:px-2 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px]" onclick = "like('${pet.image}')"><img src="images/like.png" alt="" class="w-[24px] h-[24px]"></button>
                     </div>
                     <div>
                         <button class="xl:py-2 lg:py-1 py-1 xl:px-3 lg:px-1 px-3 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px] text-[#0E7A81] font-bold text-lg" onclick = "openModal()">Adopt</button>
@@ -101,24 +101,24 @@ const displayDogs = (pets) => {
             <div class="w-full xl:h-1/2 lg:h-1/2 mb-2"><img src = "${pets[i].image}" alt="" class="rounded-xl w-full h-full"></div>
             <p class = "font-extrabold text-2xl text-[#131313] mb-2">${!(pets[i].pet_name)? "Not Available" : pets[i].pet_name}</p>
             <div div class = "flex xl:gap-3 gap-1 items-center mb-2">
-                <div><img src = "../images/bread_logo.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                <div><img src = "images/bread_logo.png" alt = "" class = "w-[24px] h-[24px]"></div>
                 <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg"> Breed: ${!(pets[i].breed)? "Not Available" : pets[i].breed}</p>
             </div>
             <div div class = "flex xl:gap-3 gap-1 items-center mb-2">
-                <div><img src = "../images/bd_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                <div><img src = "images/bd_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                 <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" > Birth: ${!(pets[i].date_of_birth)?"Not available":pets[i].date_of_birth}</p>
             </div>
             <div div class = "flex xl:gap-3 gap-1 items-center mb-2">
-                <div><img src = "../images/gender_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                <div><img src = "images/gender_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                 <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" > Gender: ${!(pets[i].gender)?"Not Available":pets[i].gender}</p>
             </div>
             <div div class = "flex xl:gap-3 gap-1 items-center mb-2">
-                <div><img src = "../images/price_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
+                <div><img src = "images/price_icon.png" alt = "" class = "w-[24px] h-[24px]"></div>
                 <p class = "text-[rgba(19,19,19,0.7)] xl:text-lg" >Price: ${!(pets[i].price)?"Not Available":pets[i].price}</p>
             </div><hr class="mb-4">
             <div class="flex justify-between items-center gap-2">
                 <div>
-                    <button class="xl:py-2 lg:py-1 py-1 xl:px-3 md:px-2 px-2 lg:px-1 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px]" onclick = "like('${pets[i].image}')"><img src="../images/like.png" alt="" class="w-[24px] h-[24px]"></button>
+                    <button class="xl:py-2 lg:py-1 py-1 xl:px-3 md:px-2 px-2 lg:px-1 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px]" onclick = "like('${pets[i].image}')"><img src="images/like.png" alt="" class="w-[24px] h-[24px]"></button>
                 </div>
                 <div>
                     <button class="xl:py-2 lg:py-1 py-1 xl:px-3 lg:px-1 px-3 rounded-lg border-[rgba(14,121,129,0.15)] border-[2px] text-[#0E7A81] font-bold text-lg" onclick= "openModal()">Adopt</button>
