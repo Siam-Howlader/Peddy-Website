@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy-Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .lato {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="lato">
+    <header class="xl:px-28 xl:pt-12 px-6 py-4 md:px-20">
+        <nav class="flex justify-between items-center">
+            <div class="flex gap-2 items-center">
+                <div>
+                    <img src="images/logo.webp" alt="">
+                </div>
+                <div>
+                    <p class="font-black xl:text-3xl text-[#131313]">Peddy</p>
+                </div>
+            </div>
+            <div>
+                <ul class="flex gap-4 xl:mr-28">
+                    <li>
+                        <a href="#banner" class="text-[rgba(19,19,19,0.5)]">Home</a>
+                    </li>
+                    <li>
+                        <a href="#shop" class="text-[rgba(19,19,19,0.5)]">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#footer" class="text-[rgba(19,19,19,0.5)]">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/profile_icon.png" alt=""
+                    class="border-[2px] border-[rgba(14,121,129,0.2)] px-3 py-3 rounded-[32px]">
+            </div>
+        </nav>
+        <div class="text-center my-7" id="banner">
+            <p class="font-bold text-2xl text-[rgba(19,19,19,0.6)]">Bringing Families Together ❤️‍🔥</p>
+            <p class="text-[#131313] font-black xl:text-7xl text-5xl xl: xl:w-2/3 w-full mx-auto my-10">
+                Your Path to
+                Adoption Starts Here
+            </p>
+            <p class="text-[#131313] xl:w-2/3 lg:w-1/2 mx-auto mb-7">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking
+                at its layout. The point of using Lorem Ipsum is that it has a.
+            </p>
+            <a href="#main-container"><button class="btn bg-[#0E7A81] text-white xl:px-8 px-5 xl:text-xl text-xl font-bold rounded-[12px]">
+                View
+                More
+            </button></a>
+            <img src="images/pet.webp" alt="" class="mx-auto mt-7">
+        </div>
+    </header>
+    <main id="main-container">
+        <section class="text-center xl:px-28 lg:px-10 px-5" id="shop">
+            <p class="font-black text-[40px] text-[#131313]">Adopt Your Best Friend</p>
+            <p class="mx-auto text-[rgba(19,19,19,0.69)] xl:w-1/2 lg:w-1/2 md:w-4/5 my-7">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a.
+            </p>
+            <div class="flex justify-between xl:gap-12 gap-3 mb-6">
+                <div class="w-1/4">
+                    <button class="w-full flex border-[2px] border-[#0e798182] xl:px-6 xl:py-6 px-4 py-2 rounded-2xl" id="dogs">
+                        <div class="flex items-center justify-between gap-2 mx-auto">
+                            <div class="xl:block lg:block md:block hidden"><img src="images/dogs.png" alt="" class="xl:w-full"></div>
+                            <p class="font-bold xl:text-2xl text-xl text-[#0e7981]" id="dogbtntext">Dogs</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="w-1/4">
+                    <button class="w-full flex border-[2px] border-[#0e798182] xl:px-6 xl:py-6 px-4 py-2 rounded-2xl"
+                        id="cats">
+                        <div class="flex items-center justify-between gap-2 mx-auto">
+                            <div class="xl:block lg:block md:block hidden"><img src="images/cats.png" alt="" class="xl:w-full"></div>
+                            <p class="font-bold xl:text-2xl text-xl border-[rgba(14,121,129,0.51)] text-[#0e7981]"
+                                id="catbtntext">Cats</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="w-1/4">
+                    <button class="w-full flex border-[2px] border-[#0e798182] xl:px-6 xl:py-6 px-4 py-2 rounded-2xl" id="rabbits">
+                        <div class="flex items-center justify-between gap-2 mx-auto">
+                            <div class="xl:block lg:block md:block hidden"><img src="images/Rabbits.png" alt="" class="xl:w-full"></div>
+                            <p class="font-bold xl:text-2xl text-xl border-[rgba(14,121,129,0.51)] text-[#0e7981]"
+                                id="rabbitbtntext">Rabbits</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="w-1/4">
+                    <button class="w-full flex border-[2px] border-[#0e798182] xl:px-6 xl:py-6 px-4 py-2 rounded-2xl"
+                        id="birds">
+                        <div class="flex items-center justify-between gap-2 mx-auto">
+                            <div class="xl:block lg:block md:block hidden"><img src="images/Birds.png" alt="" class="xl:w-full"></div>
+                            <p class="font-bold xl:text-2xl text-xl border-[rgba(14,121,129,0.51)] text-[#0e7981]"
+                                id="birdbtntext">Birds</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between items-center font-black text-2xl text-[#131313] my-5">
+                <p>Best Deal For You</p>
+                <button id="sortid" class="btn bg-[#0E7A81] text-white xl:px-8 px-5 xl:text-xl text-xl font-bold rounded-[12px]">
+                    Sort by Price
+                </button>
+            </div>
+        </section>
+        <section class="xl:px-28 lg:px-10 flex xl:gap-5 lg:gap-3 md:gap-2 gap-2 px-4">
+            <section id="section">
+            </section>
+            <div class="border-[2px] rounded-xl w-1/4 p-2">
+                <div id="likes" class="grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-2">
+
+                </div>
+            </div>
+        </section>
+        <dialog id="my_modal_1" class="modal">
+            <div class="modal-box">
+                <div class="w-full" id="imageid">
+                </div>
+                <div id="nameid">
+                    
+                </div>
+                <div class="flex gap-16 items-center">
+                    <div class="flex gap-2 items-center">
+                        <div>
+                            <img src="images/bread_logo.png" alt="">
+                        </div>
+                        <p class="text-[rgba(19,19,19,0.7)]" id="breedid"></p>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <div>
+                            <img src="images/bd_icon.png" alt="">
+                        </div>
+                        <p class="text-[rgba(19,19,19,0.7)]" id="bdid"></p>
+                    </div>
+                </div>
+                <div class="flex gap-28 items-center my-1">
+                    <div class="flex gap-2 items-center">
+                        <div>
+                            <img src="images/gender_icon.png" alt="">
+                        </div>
+                        <p class="text-[rgba(19,19,19,0.7)]" id="genderid"></p>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="images/price_icon.png" alt="">
+                        </div>
+                        <p class="text-[rgba(19,19,19,0.7)]" id="priceid"></p>
+                    </div>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="images/gender_icon.png" alt="">
+                    </div>
+                    <p class="text-[rgba(19,19,19,0.7)]" id="vid"></p>
+                </div>
+                <hr class="my-2">
+                <p class="font-semibold text-[#131313]">Details Information</p>
+                <p class="my-2 text-[rgba(19,19,19,0.7)]" id="dtlsid"></p>
+                <form method="dialog" class="modal-action">
+                    <button
+                        class="btn mx-auto w-full bg-[rgba(14,121,129,0.2)] text-[#0E7A81] text-xl border-[rgba(14,121,129,0.46)] border-[2px]">Close</button>
+                </form>
+            </div>
+        </dialog>
+        <div id="modalBackdrop"
+            class="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50 hidden">
+            <div class="bg-white rounded-xl shadow-xl p-6 w-80 text-center">
+                <div><img src="images/congratulations-congrats.gif" alt="" class="w-1/2 mx-auto"></div>
+                <p class="font-extrabold text-4xl mx-auto">Congrates!</p><br>
+                <p class="mx-auto text-xl my-2">Adoption Process Starts...</p>
+                <div class="mx-auto"><span id="countdown" class="text-9xl font-extrabold">5</span></div>
+                <button onclick="closeModal()" class="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                    Close Now
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black xl:px-36 md:px-10 xl:py-24 lg:px-10 py-5 flex justify-between xl:flex-row lg:flex-row md:flex-row flex-col mt-6" id="footer">
+        <div class="xl:mx-0">
+            <div class="flex gap-2 items-center mb-6 justify-center xl:justify-start lg:justify-start md:justify-start">
+                <div>
+                    <img src="images/logo.webp" alt="" class="w-full h-full mx-auto">
+                </div>
+                <div>
+                    <p class="font-black xl:text-3xl text-xl text-white">Peddy</p>
+                </div>
+            </div>
+            <ul class="text-[rgba(255,255,255,0.71)] xl:text-left lg:text-left text-center md:text-left">
+                <li class="mb-2"><a href="">Location: av. Washington 165, NY CA </a></li>
+                <li class="mb-2"><a href="">54003</a></li>
+                <li class="mb-2"><a href="">Phone: +31 85 964 47 25</a></li>
+                <li class="mb-2"><a href="">Email: info@yourdomain.com</a></li>
+                <li class="mb-2"><a href="">Openings hours: 9.00 AM - 5.00 PM</a></li>
+            </ul>
+            <div class="flex gap-3 items-center mt-3 xl:justify-start lg:justify-start justify-center md:justify-start">
+                <div><a href=""><img src="images/facebook.png" alt=""></a></div>
+                <div><a href=""><img src="images/x.png" alt=""></a></div>
+                <div><a href=""><img src="images/yt.png" alt="" class="w-10/12"></a></div>
+                <div><a href=""><img src="images/insta.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="xl:my-4 lg:my-0 md:my-0 my-4">
+            <h1 class="text-[rgba(255,255,255,0.9)] font-bold mb-7 text-center text-xl xl:text-base lg:mt-0 xl:mt-0 md:mt-0 mt-2">Useful Links</h1>
+            <ul class="text-[rgba(255,255,255,0.71)] flex flex-col gap-3 xl:text-center lg:text-left md:text-left text-center">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="#shop">Animals</a></li>
+                <li><a href="#shop">Foundation</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+        <div class="xl:mx-0 text-center xl:text-left lg:text-left md:text-left">
+            <p class="text-[rgba(255,255,255,0.9)] font-bold mb-7 text-lg">Drop a Message</p>
+            <div><input type="email" name="" id="" placeholder="Enter your email" class="lg:w-full xl:w-full md:w-full w-2/3 px-4 py-[15px] mb-5 bg-[rgba(255,255,255,0.06)] text-white rounded-xl"></div>
+            <button class="btn bg-[#0E7A81] text-white xl:px-8 px-5 xl:text-xl text-xl font-bold rounded-[12px] border-none xl:w-full lg:w-full md:w-full w-2/3">
+                    Subscribe
+                </button>
+        </div>
+    </footer>
+    <script src="JS/home.js"></script>
+</body>
+
+</html>
